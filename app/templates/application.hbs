@@ -1,5 +1,24 @@
-<h2 class="ui header" >
-  Semantic UI now working.
-</h2>
-<div class="ui red label">Hello</div><i class="trash icon"></i>
+<div class="ui grid">
+  <div class="row">
+    <div class="column">
+      <div class="ui  segment">
+        <h2 class="ui header">
+          The Modal Generator
+        </h2>
+        <div class="ui divider"></div>
+        The temporary UI will be kept to a very basic minimum.
+        <form class="ui form">
+          <div class="six wide field">
+            <label>
+              Please upload the image out of which you want the modal generated
+            </label>
+            {{input type='file' name='modal_image'}}
+          </div>
+          <button type="submit" class="ui  blue button">Upload</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
 {{outlet}}
