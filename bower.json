@@ -1,6 +1,6 @@
 {
   "name": "modal-generator",
   "dependencies": {
-    "semantic-ui": "^2.2.10"
+    "open-event-theme": "^0.0.4"
   }
 }
