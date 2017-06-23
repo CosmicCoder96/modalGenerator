@@ -1,0 +1,44 @@
+.ui.basic.segments {
+  background: none transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.ui.active.search.dropdown input.search:focus + .text {
+  color: rgba(177, 176, 176, 0.87) !important;
+}
+
+body.dimmable.undetached.dimmed {
+  .pushable {
+    transform: none;
+  }
+
+  .pusher {
+    position: static;
+  }
+}
+
+.ui.fluid.container {
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .ui.fluid.container {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ui.fluid.container {
+    padding: 0 0;
+  }
+}
+
+.margin.less {
+  padding: 0 !important;
+}
+
+.padding.less {
+  padding: 0 !important;
+}
